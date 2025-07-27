@@ -62,7 +62,7 @@ public class ComplaintDAO {
     // Get all complaints (Admin view)
     public List<Complaint> getAllComplaints() {
         List<Complaint> complaints = new ArrayList<>();
-        String sql = "SELECT * FROM complaints where status not in ('Resolved')";
+        String sql = "SELECT * FROM complaints";
 
         try (Connection conn = DBConnection.getConnection();
              Statement stmt = conn.createStatement()) {
