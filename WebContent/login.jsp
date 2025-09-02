@@ -3,14 +3,15 @@
 <html>
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <style>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<style>
         body { background: #f0f4f7; font-family: 'Segoe UI', Tahoma, sans-serif; }
         .container { max-width: 500px; background: #fff; padding: 40px; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,.1); margin-top: 100px; }
     </style>
 </head>
 <body>
 <div class="container">
+	<h2>WELCOME TO CTS</h2>
     <h2 class="mb-4">Login</h2>
 
     <% if (request.getParameter("error") != null) { %>
