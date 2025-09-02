@@ -35,7 +35,7 @@ public class UserDAO {
     }
 
     public User validateUser(String email, String password) {
-        try (Connection conn = DBConnection.getConnection();  // ✅ Use util
+        try (Connection conn = DBConnection.getConnection(); 
              PreparedStatement stmt = conn.prepareStatement(VALIDATE_USER_SQL)) {
 
             stmt.setString(1, email);
