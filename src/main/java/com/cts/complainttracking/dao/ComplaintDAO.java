@@ -87,7 +87,7 @@ public class ComplaintDAO {
         return complaints;
     }
 
-    // Update complaint status (Admin)
+    
     public boolean updateComplaintStatus(int complaintId, String status, String remarks, int adminId) {
         String updateComplaint = "UPDATE complaints SET status = ?, updated_at = NOW() WHERE complaint_id = ?";
         String insertLog = "INSERT INTO complaint_logs (complaint_id, status, remarks, updated_by, updated_at) "
