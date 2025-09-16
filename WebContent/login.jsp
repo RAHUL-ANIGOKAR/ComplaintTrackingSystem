@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="container">
-	<h2>HELLO RAHUL WELCOME TO CTS</h2>
+	<h2>HELLO RAHUL WELCOME TO CTS Project</h2>
     <h2 class="mb-4">Login</h2>
 
     <% if (request.getParameter("error") != null) { %>
