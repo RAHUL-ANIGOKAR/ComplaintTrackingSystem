@@ -11,7 +11,7 @@
 </head>
 <body>
 <div class="container">
-	<h2>Hello Docker Compose from INDIA</h2>
+	<h2>Hello Docker Compose</h2>
     <h2 class="mb-4">Login</h2>
 
     <% if (request.getParameter("error") != null) { %>
