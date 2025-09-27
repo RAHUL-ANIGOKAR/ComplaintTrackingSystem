@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  tomcat-app:
+    image: rahul9731/complaint-tracking:latest  
+    container_name: tomcat_app
+    ports:
+      - "8080:8080"
+    labels:
+      maintainer: "rahul"
+    restart: unless-stopped
