@@ -3,7 +3,7 @@ version: "3.9"
 services:
   tomcat-appV2:
     image: rahul9731/complaint-tracking:latest  
-    container_name: tomcat_app
+    container_name: tomcat_app_main
     ports:
       - "8080:8080"
     labels:
