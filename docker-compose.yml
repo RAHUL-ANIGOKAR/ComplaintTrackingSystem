@@ -1,7 +1,7 @@
 version: "3.9"
 
 services:
-  tomcat-app:
+  tomcat-appV2:
     image: rahul9731/complaint-tracking:latest  
     container_name: tomcat_app
     ports:
